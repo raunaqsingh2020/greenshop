@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Not Safe For Me",
-  "description": "Hide images that are bad for your mental health.",
+  "name": "greenshop",
+  "description": "Protect the environment by shopping sustainably!",
   "version": "0.0.1",
   "browser_action": {
     "default_popup": "index.html"
