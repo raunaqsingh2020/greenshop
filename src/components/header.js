@@ -5,6 +5,7 @@ import { POPPINS_MEDIUM, URBANIST_MEDIUM, URBANIST_REGULAR } from '../styles/fon
 
 const HeaderWrapper = styled.div`
   top: 0;
+  position: fixed;
   display: flex;
   align-items: center; 
   margin: 0;
