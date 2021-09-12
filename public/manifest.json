@@ -10,5 +10,14 @@
     "16": "sgLogounstretched.png",
     "48": "sgLogounstretched.png",
     "128": "sgLogounstretched.png"
-  }
+  },
+  "permissions": [
+    "debugger",
+    "activeTab",
+    "tabs",
+    "background",
+    "https://*/",
+    "http://*/"
+  ],
+  "content_security_policy": "script-src 'self' https://greenshop-334d1-default-rtdb.firebaseio.com https://s-usc1c-nss-219.firebaseio.com/; object-src 'self'"
 }

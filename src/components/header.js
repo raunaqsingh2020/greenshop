@@ -12,7 +12,7 @@ const HeaderWrapper = styled.div`
   background-color: #59E190;
   width: 100%;
   height: 52px;
-  box-shadow: 0px -1px 14px #888;
+  // box-shadow: 0px -1px 14px #888;
 `
 
 const HeaderText = styled.h1`
