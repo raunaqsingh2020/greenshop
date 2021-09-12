@@ -1,9 +1,7 @@
-<img src="https://ai.github.io/size-limit/logo.svg" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
+<img src="https://raw.githubusercontent.com/raunaqsingh2020/greenshop/master/sgLogo2.png" align="right"
+     alt="Greenshop logo" width="120" height="178">
 
-Size Limit is a performance budget tool for JavaScript. It checks every commit
-on CI, calculates the real cost of your JS for end-users and throws an error
-if the cost exceeds the limit.
+Chrome extension that tracks the user's online shopping and suggests sustainable alternatives based on price and brand sustainability rating.
 
 * **ES modules** and **tree-shaking** support.
 * Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
@@ -17,7 +15,11 @@ if the cost exceeds the limit.
   used in your JS.
 
 <p align="center">
-  <img src="./img/example.png" alt="Size Limit CLI" width="738">
+  <img src="./demo-web.png" alt="web" width="738">
+</p>
+
+<p align="center">
+  <img src="./demo-rec.png" alt="web" width="738">
 </p>
 
 With **[GitHub action]** Size Limit will post bundle size changes as a comment
