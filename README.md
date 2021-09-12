@@ -3,6 +3,11 @@
 
 Greenshop is a chrome extension that tracks the user's online shopping and suggests sustainable alternatives based on price and brand sustainability rating.
 
+<pre>
+
+
+
+</pre>
 * Check how sustainable your favorite stores are.
 
 <p align="center">
