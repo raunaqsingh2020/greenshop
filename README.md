@@ -1,5 +1,5 @@
 <img src="https://raw.githubusercontent.com/raunaqsingh2020/greenshop/master/sgLogo2.png" align="right"
-     alt="Greenshop logo" width="120" height="178">
+     alt="Greenshop logo" width="220" height="178">
 
 Chrome extension that tracks the user's online shopping and suggests sustainable alternatives based on price and brand sustainability rating.
 
