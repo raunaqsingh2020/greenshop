@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/raunaqsingh2020/greenshop/master/sgLogo2.png" align="right"
      alt="Greenshop logo" width="220" height="178">
 
-Chrome extension that tracks the user's online shopping and suggests sustainable alternatives based on price and brand sustainability rating.
+Greenshop is a chrome extension that tracks the user's online shopping and suggests sustainable alternatives based on price and brand sustainability rating.
 
 * **ES modules** and **tree-shaking** support.
 * Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
