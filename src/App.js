@@ -4,7 +4,7 @@ import styled from "styled-components";
 import logo from './logo.svg';
 import './App.css';
 
-import { Header, Options } from './components'
+import { Header, Options, Rating } from './components'
 
 const Wrapper = styled.div`
   height: 300px;//min(400px, 80vh);
@@ -16,6 +16,7 @@ function App() {
   return (
     <Wrapper>
         <Header/>
+        <Rating/>
     </Wrapper>
   );
 }
