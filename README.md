@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Size Limit is a performance budget tool for JavaScript. It checks every commit
+on CI, calculates the real cost of your JS for end-users and throws an error
+if the cost exceeds the limit.
 
-## Available Scripts
+* **ES modules** and **tree-shaking** support.
+* Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
+  or another CI system to know if a pull request adds a massive dependency.
+* **Modular** to fit different use cases: big JS applications
+  that use their own bundler or small npm libraries with many files.
+* Can calculate **the time** it would take a browser
+  to download and **execute** your JS. Time is a much more accurate
+  and understandable metric compared to the size in bytes.
+* Calculations include **all dependencies and polyfills**
+  used in your JS.
 
-In the project directory, you can run:
+<p align="center">
+  <img src="./img/example.png" alt="Size Limit CLI" width="738">
+</p>
 
-### `yarn start`
+With **[GitHub action]** Size Limit will post bundle size changes as a comment
+in pull request discussion.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+<img src="https://raw.githubusercontent.com/andresz1/size-limit-action/master/assets/pr.png"
+  alt="Size Limit comment in pull request about bundle size changes"
+  width="686" height="289">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+With `--why`, Size Limit can tell you *why* your library is of this size
+and show the real cost of all your internal dependencies.
 
-### `yarn test`
+<p align="center">
+  <img src="./img/why.png" alt="Bundle Analyzer example" width="650">
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <a href="https://evilmartians.com/?utm_source=size-limit">
+    <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
+         alt="Sponsored by Evil Martians" width="236" height="54">
+  </a>
+</p>
